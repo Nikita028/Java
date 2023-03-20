@@ -12,7 +12,7 @@ public class Use_of_Exp {
 		{
 			obj.demo();
 		} 
-		catch (SrushtiExp e) 
+		catch (NikitaExp e) 
 		{
 			System.out.println("MSG="+e.getMessage());
 		}
@@ -28,11 +28,11 @@ public class Use_of_Exp {
 		}
 		if(num1>0)
 		{
-			throw new SrushtiExp("It is an Positive Number");
+			throw new NikitaExp("It is an Positive Number");
 		}
 		else
 		{
-			throw new SrushtiExp("It is an Negative Number");
+			throw new NikitaExp("It is an Negative Number");
 		}
 	}
 
